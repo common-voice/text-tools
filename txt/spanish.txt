@@ -1,0 +1,761 @@
+Ahora que lo mencionas, eso sería más rápido de lo que pensaba, ya que solo buscaría un número lineal de funciones.
+Estaba pensando que verificaría diez reglas para cada característica en cada documento.
+Pero son solo diez características por documento.
+Correcto.
+Solo tuve que volver a escribir mi función de analizador así que no estaba creando enormes vectores de características.
+Vaya!
+Buen punto.
+Podrías reducir el tiempo de búsqueda si borraras todas las funciones adicionales de inmediato.
+Me aseguraré de incluir eso.
+Está bien, lo tengo funcionando.
+Veremos en otros diez minutos más o menos.
+Mi entrenador es de larga duración.
+Pensé que tenía un error porque me llevaba varios minutos, pero ahora veo que solo ejecuta muchas iteraciones y probablemente no sea eficiente ...
+Básicamente estoy usando el pseudo código.
+El pseudo código está tardando mucho tiempo en terminar.
+El mío todavía está en marcha, así que tal vez esté en un ciclo infinito.
+Lo probé en un conjunto de datos muy pequeño.
+No estoy en un ciclo infinito.
+Estoy imprimiendo lo que está sucediendo en cada paso para estar seguro.
+¿Estás usando el pseudo código en la diapositiva que dice "para todas las transformaciones"?
+Acabo de encontrar mi problema.
+Estoy en un ciclo infinito.
+No estaba actualizando la variable.
+No estoy seguro de cuándo actualizarlo.
+Simplemente lo puse en el ciclo más interno y no estoy jugando con eso.
+Creo que te engañé.
+Creo que la mejor regla actualiza los datos.
+Pero eso es todo.
+Sí, eso es lo que estoy haciendo.
+Lo que cambié es hacer un seguimiento de las ganancias en todas las iteraciones al elegir la mejor regla.
+También estoy siguiendo la ganancia solo por la iteración actual.
+Resulta que el mío no está funcionando correctamente.
+Sin embargo, las mejores ganancias, después de seiscientos, coinciden más con lo que otros estudiantes estaban obteniendo.
+Finalmente rompí ese ciclo infinito.
+Estoy probando el código ahora y le avisará cuando tenga una actualización.
+Mi código es demasiado lento, así que tengo que encontrar una solución alternativa.
+¿Me haces el favor de ejecutar su entrenador en los datos de prueba?
+Creo que mi código puede hacer eso en un tiempo razonable.
+Estoy confundido.
+¿Quieres que ejecute mi entrenador en los datos de prueba con qué propósito?
+Para comparar mis resultados con los tuyos.
+Es completamente egoísta de mi parte.
+Oh, ya que lleva mucho tiempo hacerlo en los datos de prueba?
+Sí.
+Creo que mi código se ejecutará antes de las once.
+Necesito al menos un idea de cuán lento es mi código antes de empezar a trabajar en el decodificador.
+Mis resultados no son completamente precisos, pero creo que son lo suficientemente precisos como para hacerte una idea.
+Las primeras reglas son precisas, por lo que deberían ser correctas.
+Si no te molesta, eso sería increíble.
+El mío comenzó a las cinco.
+Publiqué dos porque estoy probando un par de cosas.
+No hay garantía de que el mío sea correcto.
+Esa es mi mejor puntuación.
+Sin embargo, todavía está funcionando.
+Así que tal vez ni siquiera termino para las once esta noche
+¿Puedes imprimir en cada iteración?
+Al menos con eso podemos estar seguros de cómo deberían ser los resultados.
+Claro.
+Mi código es demasiado lento.
+Lo pondré en el bin y le diré lo antes que pueda.
+También podría dejar descansar el mío, a menos que lo descubra fácilmente esta noche.
+Si obtengo muchos puntos, puedo enviar un rehacer.
+Buen punto.
+Bueno, espero que lo entiendas muy fácilmente.
+Y gracias por la ayuda.
+Mil gracias.
+Esta fue una semana difícil para mí.
+Fuera de la escuela, ten en cuenta.
+Estoy tan mal para la optimización.
+Terminé, excepto que mi entrenador es súper lento.
+Entonces, cuando eso termina en el procesador, puedo ejecutar el clasificador y terminar.
+Genial.
+¿Entiendes cómo estamos calculando el puntaje?
+Entiendo cómo obtener el mínimo común denominador, pero no sé cómo obtener su probabilidad.
+¿Solo necesitamos el contenido de la información?
+Eso es casi el final de la sección
+Lo siento, pensamiento aleatorio.
+Entiendo que sean la misma cosa.
+Sin embargo, estoy teniendo problemas para relacionar eso con el algoritmo en el libro.
+¿Querías marcar el tiempo de ese video?
+Bueno.
+Solo asegurándome de no tener que buscar.
+Lo entiendo ahora.
+Estaba a punto de explicar eso yo mismo.
+Agradezco la confirmación porque no estaba seguro.
+Esa es la parte de la que todavía estoy confundido.
+Pero creo que es fácil de hacer después.
+No lo encuentro.
+¿Cuál sección?
+¿Estás leyendo esta lectura?
+Sí, pero impreso.
+Ya. Gracias.
+¿Cómo encontramos el sentido preferido?
+Entonces, eso no me está dando los resultados correctos.
+Creo que escogemos el que tiene el mayor valor.
+¿Cómo sabemos cuál sentido de la palabra usar para cada palabra?
+En las diapositivas usa el primer índice para obtener el primer sentido de la palabra.
+¿No los revisamos todos?
+Oh, eso explica por qué estaba confundido acerca de lo que significaba el sentido preferido.
+Lo estoy haciendo, pero tengo los resultados incorrectos incluso con la función incorporada.
+Hay una nota en la tarea.
+Así que creo que solo estamos recorriendo todas lineas.
+Además, dice que todas las palabras en grupos de contexto se tratan como sustantivos.
+¿Usamos Únicamente el primer índice para palabras de contexto?
+Supongo que sí.
+Ese es el algoritmo del que me habló en la página tres.
+Pero no tengo idea de lo que está calculando.
+Hay similitud entre las dos palabras.
+Todavía no sé cómo es ese número.
+Dios mío, acaba funcionar.
+había un error estúpido en mi código.
+Así que todavía estoy eligiendo un sentido de palabra para el grupo de nombres.
+Pero podría intentar usar el primer índice rápidamente para ver si funciona.
+Funciona muy rápido de todos modos.
+¿El resultado de ejemplo es el estándar de oro?
+Los otros estudiantes han dicho que sus números coinciden.
+Yo apenas ví lo mismo.
+¿Qué usas?
+No estoy seguro de lo que realmente significa.
+De todos modos, asumo por ahora que el archivo de ejemplo es el estándar de oro.
+Oh, olvídelo.
+Necesito volver a leer lo que dijiste.
+Lo que dijiste tendría sentido.
+Espera un minuto.
+¡Gracias!
+Alguien publicó una solución para eso en Slack.
+Sí, vi que Rodrigo dijo que usáramos zero.
+Todavía proceso el archivo.
+Ahora veo que alguien mencionó a Rogelio específicamente.
+¿Sabes por qué el resultado del ejemplo tiene números entre cero y uno?
+Los estudiantes están mostrando resultados que tienen números más como los números en la primera parte.
+No lo sé.
+Estoy investigando eso ahora.
+¿Has descubierto el algoritmo para la desambiguación grupal?
+Aún no.
+He estado trabajando desde la clase.
+Estoy intentando traducir la diapositiva siete a un lenguaje que entiendo.
+Esto es lo que tengo.
+Aquí es donde estoy atascado.
+Aún no sé cómo lo determinamos.
+El otro es descendiente de él.
+¿Eso funcionó?
+¿Qué reportes para el tercer par?
+Lo siento, estoy distraído.
+No entiendo bien lo que está ocurre para ser honesto.
+No hay problema.
+Empecé a lograr progresos nuevamente
+No lo he implementado todavía.
+Entendido.
+No estoy seguro de cómo elegir el sentido correcto.
+No nos preocupamos por el grupo ¿verdad?
+No estoy seguro de cómo hacer eso dado el grupo.
+Si te intersa Coonstantino y yo estamos hablando un poco en Slack.
+Todavía estoy atascado en lo mismo.
+Creo que voy a intentar esto.
+Estoy por rendirme.
+No pude implementar lo que envié.
+Lo adapté para lograr lo mismo y obtuve casi los mismos resultados.
+Buena suerte.
+Creo que al menos sé cómo proceder desde aquí.
+En realidad, mi desempeño es mejor que lo que otros publican en línea.
+Mi correlación es terrible sin embargo.
+No sabes cómo cumplir con la parte inferior, ¿verdad?
+Sabes, Julio dice que lo normalizamos.
+Tal vez así es como obtendríamos valores entre cero y uno.
+La normalización solo tiene sentido para la desambiguación grupal.
+José dice, "la medida de similitud de Resnik no se incrementa por uno".
+Tengo la mente revuelta.
+No creo que haya implementado nada parecido a lo que debería haber hecho.
+¿Tendremos tarea para ambas clases?
+Fernanda dijo al principio del trimestre que tendríamos tarea en las redes neuronales.
+Puede o no puede suceder.
+Quizás sea opcional como el año pasado.
+No me juzgues por querer dos semanas enteras de descanso.
+De ningún modo.
+Hay muchas otras cosas que hacer para pasar el tiempo.
+Parece poco probable que tengamos tarea en la clase.
+No estoy seguro.
+Espero que no, pero también entiendo que probablemente deberían darnos la tarea esa semana.
+No voy a hacerme ilusiones.
+Julieta hizo la tarea diez la última vez, ¿cierto?
+También me gusta la idea de hacer algo con redes neuronales, aunque ya tenía una clase completa sobre ellas.
+Al menos podría ser capaz de ayudar.
+Eso es realmente bueno para ti.
+Es verdad.
+No he hecho redes neuronales todavía.
+Siento que sería una viñeta muy valiosa en mi currículum.
+¿Ya has terminado la tarea?
+No importa.
+Encontré la respuesta en Wikipedia.
+Acabé.
+¡Oye!
+Perdón, estaba cenando.
+No he llegado tan lejos todavía.
+No hay problema.
+Hazmelo saber si tienes preguntas.
+Chévere.
+Gracias compa.
+Hagamos algo después de la clase.
+¡Me parece genial!
+Deseas instalar un nuevo sistema operativo en su dispositivo.
+Necesitas abrir un navegador.
+Navegas a la página web.
+El archivo que deseas descargar se encuentra en esa página web.
+Debes descargar el instalador.
+Una vez que hayas descargado tu instalador, ábralo.
+Debes hacer clic en el botón de instalación.
+Sigue las instrucciones para instalar.
+Es posible que tengas que guardar el archivo en un DVD o una memoria flash USB.
+Reinicias tu computadora.
+Arranca tu computadora desde la memoria flash USB.
+El instalador se ejecutará desde tu memoria USB.
+Configuras tu sistema de acuerdo a tus preferencias.
+Haz clic en el iniciador de terminal para abrir la terminal.
+Si no ves el iniciador de terminal, haz clic en el selector de tablero.
+En el tablero, puedes ver tus aplicaciones.
+Puedes buscar tu iniciador de terminal en el tablero.
+Tu sistema operativo probablemente tiene una función de actualización automática.
+Si te sientes cómodo usando el terminal, puedes actualizar tu computadora con un comando de terminal.
+También puedes iniciar aplicaciones desde la terminal.
+Tu dispositivo se puede conectar a redes inalámbricas.
+Para conectarte a una red inalámbrica, deberás acceder a la configuración de tu sistema.
+Abres tu configuración de red.
+Abres tu configuración de red inalámbrica.
+Seleccionas la red inalámbrica a la que deseas conectarte.
+El ícono indicará que estás conectado a una red inalámbrica.
+Puedes conectar dispositivos adicionales a tu computadora.
+Conectas un teclado inalámbrico a tu computadora.
+Puedes instalar controladores desde la terminal.
+Debes tener cuidado cuando trabaja en la terminal.
+Ella quiere instalar un nuevo sistema operativo en su dispositivo.
+Ella necesita abrir un navegador.
+Ella navega a la página web.
+El archivo que ella desea descargar se encuentra en esa página web.
+Ella necesita descargar el instalador.
+Una vez que se descarga su instalador, ella lo abre.
+Ella debe hacer clic en el botón de instalación.
+Ella sigue las instrucciones para instalar.
+Es posible que necesite guardar el archivo en un DVD o memoria flash USB.
+Ella reinicia su computadora.
+Ella inicia su computadora desde la memoria flash USB.
+El instalador se ejecutará desde su memoria flash.
+Ella configura su sistema de acuerdo a sus preferencias.
+Ella hace clic en el iniciador de terminal para abrir su terminal.
+Si ella no ve el selector de terminal, hace clic en el selector de tablero.
+En el tablero, puede ver sus aplicaciones.
+Ella puede buscar su iniciador de terminal en el tablero.
+Su sistema operativo probablemente tiene una función de actualización automática.
+Si se siente cómoda usando el terminal, puede actualizar con un comando de terminal.
+Ella también puede iniciar aplicaciones desde la terminal.
+Su dispositivo se puede conectar a redes inalámbricas.
+Para conectarse a una red inalámbrica, ella necesitará acceder a la configuración de su sistema.
+Ella abre su configuración de red.
+Ella abre su configuración de red inalámbrica.
+Ella selecciona la red inalámbrica a la que quiere conectarse.
+El icono indicará que ella está conectada a una red inalámbrica.
+Ella puede conectar dispositivos adicionales a su computadora.
+Ella conecta un teclado inalámbrico a su computadora.
+Ella puede instalar controladores desde la terminal.
+Ella debe tener cuidado cuando trabaja en la terminal.
+Él quiere instalar un nuevo sistema operativo en su dispositivo.
+Él necesita abrir un navegador.
+Él navega a la página web.
+El archivo que quiere descargar se encuentra en esa página web.
+Él necesita descargar el instalador.
+Una vez que se descarga su instalador, él lo abre.
+Él debe hacer clic en el botón de instalación.
+Él sigue las instrucciones para instalar.
+Es posible que necesite guardar el archivo en un DVD o unidad flash USB.
+Él reinicia su computadora.
+Él inicia su computadora desde la unidad flash USB.
+El instalador se ejecutará desde su unidad flash.
+Él configura su sistema de acuerdo a sus preferencias.
+Él hace clic en el iniciador de terminal para abrir su terminal.
+Si él no ve el iniciador de terminal, hace clic en el selector de tablero.
+En el tablero, él puede ver sus aplicaciones.
+Él puede buscar su iniciador de terminal en el tablero.
+Su sistema operativo probablemente tiene una función de actualización automática.
+Si se siente cómodo usando el terminal, puede actualizarlo con un comando de terminal.
+También él puede iniciar aplicaciones desde la terminal.
+Su dispositivo se puede conectar a redes inalámbricas.
+Para conectarse a una red inalámbrica, él deberá acceder a la configuración de su sistema.
+Él abre su configuración de red.
+Él abre su configuración de red inalámbrica.
+Él selecciona la red inalámbrica a la que quiere conectarse.
+El ícono indicará que está conectado a una red inalámbrica.
+Él puede conectar dispositivos adicionales a su computadora.
+Él Conectó un teclado inalámbrico a su computadora.
+Él puede instalar controladores desde la terminal.
+Él debe tener cuidado cuando trabaja en la terminal.
+No abriremos hasta el siete de agosto.
+Este dragón es un glotón.
+Tu médico conduce a toda velocidad.
+Ella dimitirá, estoy seguro de ello.
+Me encuentro de diez, ¿Qué tal tú?
+Apuntar la boca del extintor a la base del fuego.
+Las bicicletas rojas se venden solas.
+Nuestras expectativas se hunden a pique.
+Hay cosas sencillas en esta vida y otras complicadas pero al final la mayoria tienen solucion.|Mi computadora posee un disco duro, dos memorias ram y miles de bytes.|Software la culpable de que el hardware aguante golpes de un usuario enojado.|Es mas fácil ver por una ventana limpia. |El Salvador es un país ubicado en Centroamérica, tambien conocido como el pulgarcito de América. |Las comunidades son espacios del oir, crear y hacer.
+Respete los valores naturales y culturales del Parque,|Respete la flora y la fauna,Está prohibido introducir plantas o liberar animales,Respete el silencio de la naturaleza,No ensucien el Parque con sus desperdicios,No está permitido encender fuego,No arroje colillas al suelo,reproductores de música,Fin de temporada
+Guia de servicios,|Influencia Socioeconómica,Grandes Núcleos de Patrimonio,Centros de Visitantes,los habitantes de los pueblos que circundan el Parque
+trabajar de forma colaborativa,apuntes del profesor,Nuestro trabajo está elaborado por profesores
+El carro es rojo|es un error global|la ventana esta rota|él se come toda la pizza|el color azul es mi favorito|en la calle sur un camión choco con un bus|juan pérez fue el primer promotor de cultivos|Pedro Flores fue el primer rector de la universidad|trece es considerado un número de mala suerte|el jarrón con flores esta royo y se derrama el agua|esa chica es muy maja|la comité de la colonia esta ayudando mucho en la obra|el teléfono está descompuesto|no se que pasa pero la computadora esta fallando|la rueda de la carreta se rompió y ocasionó un accidente|la puerta necesita restauración|la mesa tiene una extensión con la cual se hace grande|en la avenida reforma hay mucho trabajo de embellecimiento|pagar los impuesto es bueno para todos|la municipalidad de Guatemala hizo mucho obra|el expresidente del congreso era una mala persona|es posible viajar por el tiempo es una teoría muy llamativa|la imprenta sirve para hacer muchos textos pronto|la mecánica es una profesión muy útil para la gente|la electricidad es energía bastante limpia|las naciones unidas se preocupan por la paz del mundo|la guía telefónica es un medio de encontrar nuevos clientes|la informática es la ciencia de manejar las computadoras|la guerra de Irak e Iran fue hace muchos décadas|el Rock and Roll es una música que estuvo de moda en los ochentas setentas y sesentas|la calzada La paz es una vía de comunicación que ayudo al acortar distancias|el barranco es muy profundo|la cima de la montaña es muy alto a seis horas de camino|el volcán tacaná es uno de los que posen faldas muy grandes|el vuelo hacia Honduras nos ahorra mucho dinero|el bebe es muy hermoso|el suelo de tierra puede ser muy dañino para la salud de los niños|el tabaco es malo para la salud y dañar los pulmones|el fémur es el hueso mas largo del cuerpo|las lenguas romances son todas las que descienden del latín|Roma fue un gran imperio antiguo y los últimos grandes|El descubrimiento de América fue uno de los grandes hitos de la historia|mi tía es una persona muy generosa|esa chica es alguien que piensa mas en otros que en si misma|el pirata barba negra fue uno de los mas malvados de todos los tiempos|los soldados samuray fueron una legión antigua de Japón|Caballeros templarios fueron monjes guerreros de hace tres cientos años|el abogado del diablo es una película que no he visto|mar es un sinónimo de océano|una antónimo es el contrario de el significado de una palabra
+Hola, ¿que tal lo tenemos para unas alitas libres de colesterol mañana viernes? 
+hablemos de la selva|el león se comió una hiena|el perro de la pradera es pequeño|el elefante tiene marfil|el rinoceronte es un animal muy fuerte|la suricata es rápida|el mono es un animal muy listo|el orangután está en peligro de extinción|el gorila es grande y fuerte|la hienas se ríen mucho|los lemures tienen colores grises|las nutrias son buenas nadadoras|los herpéstidos son unos animales muy raros de conocer|el hurón es bonito|la marmota duerme bastante|los comadrejas pueden ser peligrosas|el javali es un animal salvaje|los perezosos viven en los árboles|el otro nombre de un perezoso es ai|el león es el rey de la selva|el chita es el animal más rápido del mundo|el chita se come a sus crías|el hipopótamo es muy veloz en el agua|los koalas viven en Australia|el fénec se parece al zorro|la jirafa es el animal más alto|los zorrillos pueden atacar con mal olor|el leopardo sube su presa a los árboles|si tenemos una clase del bosque|Los osos son altos de pie|el jaguar es una animal americano|el salmón es un animal que emigra|la trucha se puede encontrar en alaska|Canadá es un país muy frío|El lobo caza en manadas|Los leones tiene éxito al cazar del treinta por ciento|el tigre es un animal que vive en solitario|el mono araña es muy ágil|el macaco tiene diversos colores|el wombat es también un animal de Australia|los dingos parecen perros mansos|ornitorrinco tiene características de tres animales distintos|emú es un ave corredora|el tapir habita en las selvas de petén|el okapi es un animal hermoso|todos piensan que la chinchilla es un insecto|algunos murciélagos comen fruta|la saliva de los murciélagos puede ser alimento|algunas ardillas son voladoras|el tilacin se extinguió en los años cuarenta
+He incluido un resumen de los principales aparatos y utensilios usados en los laboratorios de química.||Termina la obra con el tratado de análisis químico escrito por Orfila.||Me he adherido en los casos dudoso a la opinión del autor||He admitido todas las denominaciones modernas tanto de los compuestos de hidrógeno como de otros muchos.||Vasija de combre o vidrio que sirve para destilar los líquidos.||Los vapores que se desprenden van primero al pico del capitel y de allí al tubo donde se condesan.||Comunmente se emplean los alambiques de vidrio con el baño de arena.||Para este efecto se sitúa el baño de arena en un hornillo.||En la actualidad es poco usado.||Hay cubas hidro-neumáticas mas pequeñas que la anterior.||Cuchara larga de hiero destinada para calcinar ciertas sustancias.||Sitio en que la temperatura se halla mas elevada que la de la atmósfera inmediata.||Eudiómetro: Instrumento que sirve para analizar algunos gases.||Solo describiremos el primero y el de Volta.||Esta varilla atraviesa un tubito de vidrio barnizado con resina.||Cuando ha pasado todo el gas, se desatornilla este tubo.||Los frascos de cristal tienen fondo plano.||Frascos de Woolf o frascos de golletes.||Representa una mufla vista de frente y de costado||Está colocado sobre una fábrica portatil hecha con ladrillos.||Esta especie de horno, aunque muy pequeño y servido por un fuelle mediano, da un calor considerable.||Se escogerá para laboratorio un paraje muy claro y seco en que pueda renovarse fácilmente el aire.||En uno de los ángulos del laboratorio deberá hallarse la chimenea en la que se construye una campana.||Habrá un depósito de agua común, fregadero con sumidero y un depósito o tinaja de agua destilada.||Se usa para calentar las materias hasta el rojo naciente||Luten de harina de linaza y engrudo de almidón.||Se mezclan estas dos sustancias en un mortero||Hasta formar una pasta bien homogénea||Se amasa con las manos arcilla con agua||Generalmente son de hierro, bronce, mármol, porcelana, vidrio, ágata o pedernal.||La mas preferible es la de Children construida por los consejos de Wollaston.||Cada elemento está formado de una chapa de zinc y otra de cobre como de costumbre.||Cuanto mas duras y lisas sean la losa y la moleta, serán mejor.||Y se obliga al líquido a elevarse hasta lo alto del sifón.||La fe de erratas se incluirá en el tomo dos||Compendio de química aplicada a la medicina y a las artes||De sus moléculas y de las fuerzas que las reunen.||Los cuerpos resultan de la agregación de moléculas o átomos perfectamente semejantes||Varias circunstancias pueden romper este equilibrio, por ejemplo: el cambio de estación.||Cuando se combinan los cuerpos, se produce casi siempre calor o frío.||Está formado de oxígeno y azufre que son insípidos||El oxígeno tiene muy poca afinidad con el cloro y mucha con el boro||A no se que que tenga sobre él alguna acción.||Al principio habían despreciado muchas circunstancias esenciales||No discutiremos ahoa las hipótesis que han emitido sobre este punto los químicos mas célebres.||Numerosos experimentos nos dan cada día nuevas probabilidades||No todos los ácidos están compuestos de oxígeno.||Muchos óxidos metálicos forman compuestos binarios||Hay que exceptuar las combinaciones en que entra el mercurio||En el año mil setecientos ochenta Guyton de Morveau dió las primeras bases para la clasificación||Dividir la suma por dos para obtener el peso específico del amoníaco.||Ley de los equivalentes químicos o de los números proporcionales llamados vulgarmente proporciones||Se puede igualmente conocer, sin hacer el análisis, la composición de las sales neutras||Solo nos falta ahora, para completar la teoría de los átomos, resolver el siguiente problema||¿Cuantos átomos constituyentes existen en un cuerpo compuesto?||¿Cual es el peso de cada uno de ellos?||Acabamos de establecer que en volúmenes iguales los gases simples contienen el mismo número de átomos||Y que estos están a igual distancia unos de otros.||Esta ley no puede admitirse sin restricción.||Se procede como en el párrafo anterior.||Este medio está fundado en el isomorfismo||Esta sal es el alumbre anhidro.
+Mi amiga María trabaja todas las noches desde su casa
+El centro de la ciudad se encuentra a diez kilómetros hacia el norte
+La siguiente calle se encuentra cerrada a la circulación
+¿Donde puedo comprar mangos en esta colonia?
+En 3 calles puedes encontrar la mejor fruta de la ciudad
+¿Qué hay de desayunar hoy?
+Mis papás hicieron de desayunar hoy para mí
+Los pingüinos viven en el polo sur
+El zoológico está en el bosque de Chapultepec
+La estación más cercana es el metro auditorio
+La dirección que debes de tomar es barranca del muerto
+La línea más profunda de metro es la linea siete 
+El quince de Mayo no hay clases en México, 
+María cumple años el siguiente mes
+Si supieras lo que yo llore por tí 
+Si no supiste quererme 
+Nadie te ha amado como yo te ame 
+Ahora te puedes retirar del lugar de trabajo
+La escuela se encuentra cerrada por ser día festivo
+La ciclovia esta invadida por autos 
+El proyecto ya se encuentra en producción
+El día de muertos es una fiesta mexicana que se celebra el 2 de noviembre
+Estoy trabajando en las oficinas de mis amigos
+La oficina es de color gris
+Cruza la calle y da vuelta a la derecha
+Cruza la calle y da vuelta a la izquierda
+María está jugando en el parque con sus amigos
+¡Que hermosa guitarra es esa!
+Ninguna de las comidas se acabaron
+El chocolate es un dulce muy sabroso
+Parece que mañana lloverá
+Cocinar no es algo que disfrute
+Este es el río más grande de la ciudad
+Mi carro necesita llantas nuevas
+Los jugadores de fútbol han corrido mucho
+Las ardillas tienen dientes y cola esponjada
+Se fue y no volvió
+Los perros ladran mucho estos días
+Mañana es sábado
+Las flores están floreciendo
+Cuando tomas agua se te quita la sed
+La noche está estrellada
+Ve a la cocina y abre el refrigerador
+Si limpias la cocina se verá mejor
+Hubo cambios en el proyecto
+Trata de usar palabras diferentes
+Incluye un nombre 
+Sigue el camino de piedras
+Respira profundo y sonríe
+¿Que dirección buscas?
+¿Tienes cambio de un billete de quinientos?
+Pon atención a las señales
+Ayuda a la gente 
+¿por donde comenzar?
+La lata de sopa se cayó
+Enciende la radio para escuchar las noticias
+Ese lugar es muy místico
+Vamos a comprar esa casa
+Gracias por los regalos
+Los pericos son verdes
+Mañana te veo en la estación de trenes
+El mes entrante viajaré a Reino Unido
+Las luces de navidad son nuevas
+No se en realidad cuando es su cumpleaños
+La batería de mi teléfono se está agotando
+Muchas cosas han ocurrido en los últimos meses
+Ahora te puedes marchar
+Haz que sea conversacional
+Me avisas cuando llegues
+Me fui a trabajar por la tarde
+La vida es para disfrutar
+Nada es para siempre
+Camina bajo la lluvia
+¿por donde vienes?
+¡que tengas buen día!
+Hay mucho tráfico en la ciudad
+Ya voy para la casa
+No me gusta 
+El amor debe de triunfar sobre el mal 
+El día de mañana nos podemos ver la feria del pueblo
+Es muy posible que no tenga dinero para ir a cenar con los amigos
+Sueña que mañana será un día mejor que ayer 
+Desde niño siempre quise ser piloto aviador
+La historia de un amor que se desvaneció con el tiempo
+Viajar en avión es más rápido que en automóvil
+No he encontrado el control remoto de la televisión
+Las focas son graciosas
+¿Cuántos días tienes viviendo aquí?
+No se encuentra disponible la persona que buscas
+Mande el correo a la hora que me indicaste
+La que no espera nada a cambio es mejor persona
+Tu trabajo es incondicional para la empresa que trabajas
+Vamos a tomar un viaje de vacaciones para verano
+Mi autobús viene retrasado una hora
+No se aún que compraré para el regalo de Navidad
+El frío de este año es mayor que el de otros
+Nosotros nos vamos a inscribir al colegio militar
+Tus labios están pintados de color rojo
+Tu sonrisa es la más bonita del mundo 
+Hasta que la vida nos separa vamos a estar juntos 
+Me vas a partir en mil pedazos si no me haces caso
+Tu amor es más fuerte cuando estamos juntos
+El metro deja de pasar a media noche 
+Si tu supieras lo que me hiciste sufrir toda la noche 
+¡Ahora te puedes retirar del restaurante!
+No hubo nadie que nos pudiera separar 
+Estamos destinados a estar juntos por la eternidad 
+Se ve que en realidad no vamos a poder llegar a la cita del dentista  
+Marcela tiene una cita muy importante mañana por la mañana
+Si nos dejan vamos a poder ir mañana al parque juntos
+Todavía hay boletos para el partido del domingo
+Cerca de la calle puedes encontrar los mejores tacos de la ciudad
+Me hiciste sentir lo mejor de la vida 
+Mis deseos son poder estar juntos toda la vida juntos
+Hace falta que nos organicemos para la fiesta
+El precio del dolar hoy ha cambiado
+Hoy comienza el horario de verano
+Cuántas horas son de diferencia entre Tijuana y CDMX?
+La bebida más conocida en México es el Tequila 
+Adquiere los boletos en la página del evento
+El café por la mañana disminuye tu sueño en el día
+Es hora de tener una aventura
+El helado de limón es bueno para tu dolor de muela
+La mejor opción para llegar a tu destino es tomar el metrobus    
+Tenerte a mi lado
+¿que es la inteligencia artificial?
+Es parte de la tendencia
+Tengo todo menos eso
+Tengo exito en la vida
+El sol está muy fuerte
+La pizza esta muy rica
+Veremos el amanecer de un nuevo dia
+Hay que ser felices toda la vida
+Las pirámides son hermosas
+La cultura es una parte esencial de la sociedad
+La montaña más cercana está a dos kilómetros
+Mientras tu dormías ha empezado la lluvia
+Tengo que lavar mi automóvil hoy
+La niña creció mucho estos meses
+No imaginaba que él fuera tu vecino
+Kilómetros atrás hay una gasolinera
+En la fiesta del pueblo compré un tamal
+Tengo muchos gallos en mi casa
+El metro va muy lento el día de hoy
+Las vacaciones de la familia han sido grandiosas
+Recuerda cepillarte los dientes tres veces al día
+Los árboles están muy verdes y hermosos este año
+La casa de la abuela es muy hermosa
+Sueña con un mundo mejor
+Vive y deja vivir
+El cielo está muy nublado el día de hoy
+La periodista es muy buena en su trabajo
+Mi maestra de español imparte las clases de una excelente forma
+Las matemáticas no son mi asignatura favorita
+La física de la vida es sorprendente
+Hay diferentes danzas regionales que son exquisitas de contemplar
+El plan de acción para la compañia resultó todo un exito
+Las ganancias se han triplicado este semestre
+No pensaba tener que cursar un semestre más en la escuela
+Me encanta ir de visita a los museos
+El clima hoy está muy curioso
+La velocidad máxima es de setenta kilómetros por hora
+Ayer fui a un concierto que fue genial
+La música que está sonando es de lo mejor que hay
+Limpia tus lentes antes de ponertelos
+El pozole es de mis comidas favoritas
+No disfruto usar ese tipo de ropa
+Prefiero comer tacos
+El portero detuvo ese disparo
+Me encanta ver los partidos de beísbol
+La directora ha dicho que no habrá fiesta de graduación
+Mi mamá ha cocinado mi comida favorita
+Yo te busque en cada rincón del barrio y no te encontré 
+Pronto vamos a tener que quedarse de esta casa a una más grande
+Te extraño mucho desde que te fuiste a estudiar a otro país 
+Pronto vamos a tener que tomar un café para platicar 
+¿Donde se encuentra la cafetería más cercana?
+Las bibliotecas públicas cierran sus puertas a las siete de la noche.
+México tiene una frontera muy grande con los Estados Unidos 
+La piña es de mis frutas favoritas
+Hoy conocí a mis nuevos vecinos
+Trabaja todos los días y descansa hoy
+El trineo que me regalaron ayer es magnífico
+Las ratas me dan miedo
+Los camareros de este lugar son de lo mejor que hay en la ciudad
+Me encanta que siempre que llegamos a comer la comida ya está lista
+Un día vine a buscarte y no estabas
+La nieve de limón me encanta
+Ese foco no lo compré yo, fue el electricista
+Si me dices que no vendrás a mi fiesta, no te creeré
+Las palomitas del cine son muy sabrosas
+Pintaremos la casa de un color que nos guste a todos
+El nuevo televisor debe de ir ahí
+La pantalla de mi hermano es más grande que la mía
+Limpiemos la casa de arriba a abajo
+Xochimilco es un lugar excelente para pasar el día
+Necesitamos cambiar las lámparas de la entrada
+Creamos una amistad muy significativa para ambos
+El helado es de mis postres favoritos
+Es más significativo tener una buena intención
+Velozmente me acerque a ella
+El tiene un porte sorprendente
+Aún recuerdo cuando esto era pradera
+Nadar es un ejercicio que estimula tu cuerpo y mente
+Cuando no estamos en casa, siempre se acumula mucha basura en las canaletas
+Gatos y perros no son enemigos
+Ninguna de las maquetas que hice en la primaria me sirvieron después
+Esos libros que me regalaron me encantaron
+La cineteca es de mis lugares favoritos
+Hoy es un buen día para salir de viaje a la playa
+El Nitrógeno es mejor que el aire para las llantas de los automóviles
+En la ciudad de México viven más de ocho millones de personas 
+La pizza de ese lugar es muy rica 
+No me digas que mañana no hay partido de fútbol
+La computadora la deje sobre la mesa grande blanca
+El teléfono se quedó descolgado 
+La mordida de tu perro me lastimo la mano izquierda 
+Tu compromiso a la boda no se debe de cancelar bajo ninguna circunstancia 
+La fiesta de cumpleaños de mi hermano es el hotel morado
+Ya chole chango chilango
+Hace dos meses comencé a trabajar como conductor de un taxi
+El traje para la graduación de mi tío lo compre en el centro comercial
+El mejor restaurante de la ciudad sieve garnachas
+Luis tiene que comprar 2 teléfonos para su oficina antes de la siguiente semana 
+Los mejores tacos de la ciudad no los puedes comprar 
+¿Qué hay de cenar?
+¡Bájate de ahí ahora mismos antes de que te lastimes!
+Nuestros perros son muy similares en el color 
+Soñe que ganaba el premio mayor de la lotería 
+El nuevo acondicionador me deja el cabello muy sedoso
+Luis miguel es el mejor cantante en la historia de México
+El pelo largo está prohibido en las secundarias públicas 
+Tan solo deseo que el lunes si puedas ir a la clase de karate
+Eres la razón que estaba esperando para acabar de entrenar para el maratón
+Todos los días desayuno huevos con jamón 
+Este domingo tengo que ir a la iglesia
+Yo no vi esa pelicula que me estás diciendo
+Estamos comiendo una barbacoa fui sabrosa
+Quiero que cantemos esa canción juntos
+Necesito un librero para antes de mi cumpleaños
+Si te esfuerzas, tienes la oportunidad de ganar este torneo
+Necesitamos planear las visitas del museo para el próximo mes
+Se acerca el mundial de Fútbol
+Los castores tienen dientes muy grandes
+Las caricaturas antiguas eran más entretenidas
+Goku nos salvara a todos
+La puerta de la escuela es muy grande y de color verde
+Los cohetes espaciales son muy grandes y costosos
+Las células del cuerpo son seres microscópicos
+El cielo resplandeció con su mirada
+Las estrellas te guiarán en tu camino
+Mi abuelo tiene mucha juventud interna
+Mi telefono es de color dorado
+El color negro es de mis favoritos
+Vi que el tiempo pasaba volando y apresure mi paso
+Tenía que llegar dos horas antes de mi vuelo y se me hizo tarde
+Prefiero la comida tradicional a la comida comercial
+Las pruebas en el laboratorio han concluido exitosamente
+¿Jugarás mañana basquetbol?
+El café de Tacuba es un restaurante muy famoso en el centro
+Vamos a desayunar chilaquiles verdes con pollo y crema
+Quieres leche para tu cereal?
+El mantenimiento viene incluido en la renta
+Alcanzamos la meta 
+En qué puedo ayudarte?
+Las actualizaciones son necesarias
+La vida no es gratis
+Las tortugas no saben artes marciales y se pueden lastimar 
+Puedes contar conmigo
+Los monstruos son muy amigables  para ser muy grandes 
+Los ratones me dan mucho miedo en la cocina
+Te doy todo mi apoyo
+Voy a mantener todo el ánimo para poder acabar el proyecto 
+El cielo resplandece a mi alrededor  
+Como si el Popocatepetl hiciera erupción
+ El gato de mi vecino se llama botas y es de color negro 
+Las ardillas me robaron mi desayuno
+Cuando estaba en la playa me pico un cangrejo
+La vista desde el faro es maravillosa
+A cada rato me llaman de un número de que desconozco
+Estoy horneando la cena de navidad
+Esta semana visitaré el zoológico con mi familia
+La comedia es buena en las noches
+Esto es todo lo que tengo por decir hoy
+No creo alcanzar a llegar a la reunión
+Mi cabello es un desastre cada mañana
+Jugaremos en el parque mientras que el lobo no está aquí
+La leche de almendras me encanta en el desayuno
+Los bombones es de mis dulces favoritos desde la infancia
+Ya es media noche y aún no termino
+Te dare unos minutos para que pienses las cosas 
+Ya se me secó el cerebro
+El día de hoy tengo cita con el dentista 
+Mis amigos son de una granja muy cercano 
+Vamos a tratar de conquistar el mundo todas las noches
+Los patos son compañeros muy buenos de aventuras 
+Ayer llegaron 3 nuevos leones al zoológico de la ciudad
+Darwin es un ornitorrinco muy dormilon que adopte ayer  
+Las vacas y los pollitos pueden salir a jugar a juntos 
+Las comadrejas se sienten superiores a los monos
+Los monos pueden salvar al mundo si se lo proponen
+Las cartas que recibí en mi domicilio son de mis amigos más cercanos
+¡Prepárame la cena de hoy!
+Todos estamos listos para la fiesta
+Los niños y niñas tienen los mismos derechos y obligaciones 
+Ya es tarde para la cita 
+Ingrese su contraseña para acceder
+Ayer no pude llamarte, me quedé sin señal
+Me aterran las arañas
+Las mojarras fritas son complicadas de comer
+Los ladrones intentaron asaltar un gran banco
+La sandía tiene muchas semillas
+Preferiría usar sombrero en estos días soleados
+No traje mi sombrilla y parece que va a llover
+El calendario para los siguientes cuatro meses está totalmente lleno
+Las mentiras no son adecuadas para las personas
+La puerta de negrea de tu casa esta muy vieja 
+Ponerle  3 candados a la puerta aumenta la seguridad de la casa
+Por dentro te encuentras muy triste y estás llorando
+Los chocolates son muy buenos para alegrarte el día 
+Los 2 abuelos se fueron de vacaciones a Puerto Vallarta 
+ Los pingüinos son unos animales muy inteligentes
+Es bueno tomar suficiente agua para mantenernos sanos
+Caminaremos un poco si es necesario para poder llegar a tiempo
+En el mar la vida es más sabrosa
+Hacia el mediodía el clima cambiaron nuestros planes
+Luis el policia atrapo a cuarenta tres ladrones el año pasado
+¿Donde compraste los cacahuates que comimos en la fiesta de cumpleaños?
+No quisiera decir esto, pero me tengo que ir
+El novecientos once ya se encuentra en tus contactos de emergencia
+La vida es un riesgo
+Las olas en Huatulco son las mejores en el mundo para practicar surf
+Los vuelos en el nuevo aeropuerto van a ser más constantes 
+Pedro viaja constantemente a la nueva fábrica de su papá en Guatemala 
+¿De qué color vas a querer tu nuevo automóvil?
+¿Podemos ir a comer antes de la fiesta de tu amigo Fabian?
+ Vimos que no llegaba nuestro transporte y nos preocupamos
+Empezamos a sentir pánico cuando nos sentimos perdidos
+Llegamos al hotel y empezaron las vacaciones
+Cuando me metí a la alberca no había tanta gente como ahora
+Las sirenas se escuchaban a lo lejos de la ciudad
+Las bailarinas profesionales hacen mucho ejercicio
+La noche triste es una página importante en la historia de México
+En la terraza se disfruta mejor
+Los tiburones son nuestros amigos del mar
+Ya sé cómo puedes salir de Vim
+¿Cuando es el concierto de Marco Antonio?
+La vida es un carnaval
+El diccionario es la mejor ayuda
+¡Vamos a bailar toda la noche sin deternos!
+Hoy hace calor con el sol tan radiante.|El tiempo pasa tan rápido.|El césped es verde.|Los botes flotan en el río.|Los semiconductores permitieron la revolución digital|Todo se cae contra el planeta debido a la gravedad.|El mariscal Sucre lideró la batalla de independencia contra España.|Esdrújula es Esdrújula. |Los electrones tiene un espín de un medio, los protones también.|Las matemáticas son muy divertidas.|El café es café.|Las naranjas son ácidas y dulces.|Las Islas Galápagos están en Ecuador.|El río Amazonas atraviesa Ecuador, Perú y Brasil.|Diego practica surf todos los días en la playa de Montañita.|Los niños y las niñas escuchan atentamente a la profesora de historia.|La yegua es la hembra del caballo. |Los árboles crecen del aire pero tienen las raíces bien el la tierra.|Yo voy en bici al trabajo.|Nosotros bebemos agua a toda hora.||
+vamos a caminar por la orilla de la playa hasta que lleguemos al pie de la montaña, mi país es de poetas y gran parte nace con pie de atleta. 
+hoy he visto una cigüeña|mi mascota es un pingüino|hay que cambiar el cigüeñal|es absurdo discutir|tienes que solicitar acceso|los accesorios nunca están incluidos|el wombat es un marsupial extraordinario|¿usas windows o linux?||
+Nunca es tarde para empezar.
+Al salir cerrá la puerta. Buenos días.
+¿Cómo están?
+Vivo en el quinto piso.
+¿Así que te crees preparado para el viaje?
+La polenta se cocina rápido.
+¡Nunca me lo preguntaste!
+Esto es obra de tu cuñada
+¿Qué son las matemáticas?
+Su vuelto son treinta y dos centavos.
+La zarigüella es un mamífero.
+Ese auto verde circulaba en contramano.
+Llegue al poblado de al lado.
+Iría de no ser por esta tormenta.
+Tu fiebre continúa igual.
+Ellas siempre cuchichean entre si.
+¡Este proyecto les da la bienvenida!
+Todas las praderas se inundan, anunció el agrimensor.
+¿Me alcanzarías el teléfono?
+Borra todo desde el punto y coma.
+Fulanito es un personaje de ficción.
+Mi abogado desea charlar con usted.
+Jamás he aprendido a analizar un diptongo.
+No puedes dejar nada librado al azar esta vez.
+Tu helado luce genial.
+Necesito tu llave pública de encriptación.
+¿Un millón?
+Estás soñando, tío.
+Las cartas marítimas no perderán relevancia.
+Nosotros no podemos usar pintura vinílica.
+Si hubiera preparado otro pastel hubiese sobrado.
+¡Oye, tú!  ¡Vuelve en este mismo instante!
+El paralelo veinte oculta un tesoro.
+Estás inventando sobre la marcha, ¿No es así?
+Tu reloj gira al revés.
+Eres tan frágil como el vidrio.
+Fueron a ver una película.
+Aterrizar es la parte difícil.
+La palabra esdrújula es un ejemplo perfecto.
+Es que el agua se encuentra muy fría.
+¡Apaga aquel calefón inmediatamente!
+Tres, cuatro y cinco constituyen un triángulo recto.
+Un ñoqui por sí solo no pesa nada.
+Tu trabajo es extremadamente grato.
+Seis meses al año son la mitad.
+Tu robot se irá volando.
+Mi medicina te aliviará.
+Un oráculo te habrá de enseñar el camino.
+Las manualidades de Romina Alelí.
+Alfa Bravo a torre, permiso para virar.
+Me hallo impaciente por continuar mejorando.
+Suspirar no constituye una respuesta válida.
+Tus acciones futuras invalidan tus logros pasados
+Repetir tus acusaciones no les sumarán peso.
+Y así sin más, troté.
+Perpendicularmente, respondió la bibliotecaria.
+Una cita bibliográfica así lo indica.
+Si, es que me ha atrapado el tifón.
+Once es un número primo.
+Pesar debería llamarse “masear”
+Newton lo propuso sin pensarlo dos veces.
+Si lo quisieran, lo dirían.
+Aquel que se dirigiese gentilmente a él recibiría dotes.
+“Al mar”, respondió a coro la clase.
+Su canaleta ha colapsado con la última lluvia.
+¡Estacionar aquí está prohibido, señor!
+Aristóbulo del Valle definido en una palabra.
+Los malabares no son lo tuyo.
+Quizás sea buena idea duplicar este segmento.
+¿Recuerda lo de ayer?
+¡Pues olvídelo!
+Kilo se considera la abreviación de kilogramo.
+Lo ha dicho el Ministerio de Asuntos Exteriores.
+Nuestro destino es el mismo.
+Volvamos a revisar la lista.
+Solo quedan quinientos metros para nuestra estación.
+Un subterraneo circula en ambas direcciones.
+¡Tu padre se llama igual que el mio!
+Ácidos y bases se asocian para formar sales y agua.
+Un kilo de plumas ocupa mucho espacio.
+Cortar el pasto se ha vuelto una actividad agradable.
+El clima soleado se extenderá toda la semana.
+Mañana no trabajo, es fin de semana largo.
+¿Cenar allí? No, gracias.
+Sesenta litros no caben en mi baúl. Setenta litros mucho menos.
+Adoras las bellas palabras en rimas.
+El camino más corto tiene sus peculiaridades.
+Luis nunca pudo congeniar con Pedro.
+La próxima vez no muerdas mis cosas.
+Extenuado y agotado, ¿Alguna otra pregunta?
+Mi opinión tampoco es final.
+Te ha ido fatal en todo excepto educación física.
+¿Masa y peso?
+La boca se me haga a un lado.
+Preferiría empezar de cero antes que modificarlo.
+Toda la nave de punta en blanco.
+¡Toda la tripulación, en ropa de cama, buscando las llaves!
+Tu caja fuerte sirve como caja peruana.
+La suerte está echada para mi lado de la baraja.
+Pues eso no es lo que me ha dicho a mí.
+Punto final, puedes imaginar el resto.
+Con verbos rimar es casi robar.
