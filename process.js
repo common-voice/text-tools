@@ -41,7 +41,15 @@ function keepGoing() {
   });
 
   rl.on('line', (line) => {
-    let lines = line.replace(/[\"”“]/g, '').split(/\||\. |\!|\?]/g);
+    let lines = line.replace(/[\"”“]/g, '')
+                    .split(/(\||\.|\!|\?) /g)
+                    .map((element, index, array) => {
+		                  if((index+1) % 2)
+  		                  return (array[index+1])? element.concat(array[index+1]) : element;
+                      else
+    	                  return ;
+                    })
+                    .filter(function(element){return element});
     lines.forEach(l => {
       if (l.startsWith('--')) {
         l = l.substr(2);
